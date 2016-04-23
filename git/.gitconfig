@@ -1,0 +1,14 @@
+[user]
+	name = doooonoooob
+	email = doooonoooob@gmail.com
+[filter "lfs"]
+	smudge = git-lfs smudge %f
+	required = true
+	clean = git-lfs clean %f
+[push]
+	default = matching
+[credential]
+[core]
+	autocrlf = false
+	filemode = false
+	safecrlf = true
